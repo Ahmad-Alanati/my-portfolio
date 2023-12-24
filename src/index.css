@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Japan_wave';
+  src: url('./assets/fonts/Japan_wave.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Khiara_Script';
+  src: url('./assets/fonts/Khiara_Script.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Retro_Gaming';
+  src: url('./assets/fonts/Retro_Gaming.ttf') format('truetype');
+}
