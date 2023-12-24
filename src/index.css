@@ -8,11 +8,34 @@
 }
 
 @font-face {
-  font-family: 'Khiara_Script';
-  src: url('./assets/fonts/Khiara_Script.ttf') format('truetype');
+  font-family: 'Brastagi_Regular';
+  src: url('./assets/fonts/Brastagi_Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Retro_Gaming';
   src: url('./assets/fonts/Retro_Gaming.ttf') format('truetype');
+}
+
+body {
+  @apply p-0 m-0;
+}
+
+.test {
+  @apply text-9xl; 
+}
+.navbar {
+  @apply list-none flex flex-row space-x-6 bg-greenish p-0 m-0 rounded-full fixed;
+}
+
+.navbar li{
+  @apply p-4 m-0;
+}
+
+li a {
+  @apply no-underline m-0 p-4;
+}
+
+.center {
+  @apply flex justify-center;
 }
